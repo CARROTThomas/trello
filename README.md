@@ -8,10 +8,8 @@ blablabla
 
 <h1><strong>Documentation</strong></h1>
 <div class="container mt-5 mb-5">
-    <h1 class="mb-4">API Documentation - VoyageVue</h1>
-
+    <h1 class="mb-4">API Documentation - Trello</h1>
     <div class="accordion" id="accordionExample">
-
         <!-- User paths -->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -27,7 +25,6 @@ blablabla
                 </div>
             </div>
         </div>
-
         <!-- Workspaces paths -->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
@@ -43,7 +40,6 @@ blablabla
                 </div>
             </div>
         </div>
-
         <!-- Board paths -->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
@@ -59,7 +55,6 @@ blablabla
                 </div>
             </div>
         </div>
-
         <!-- List paths -->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
@@ -75,7 +70,6 @@ blablabla
                 </div>
             </div>
         </div>
-
         <!-- Card paths -->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingFive">
@@ -91,7 +85,6 @@ blablabla
                 </div>
             </div>
         </div>
-
         <!-- Token paths -->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingSix">
@@ -108,7 +101,5 @@ blablabla
                 </div>
             </div>
         </div>
-
     </div>
-
 </div>
