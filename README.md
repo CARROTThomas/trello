@@ -72,30 +72,30 @@
         </div>
         <!-- Card paths -->
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <h2 class="accordion-header" id="headingCard">
+                <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCard" aria-expanded="false" aria-controls="collapseCard">
                     Card Paths
                 </button>
             </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div id="collapseCard" class="accordion-collapse collapse" aria-labelledby="headingCard" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <ul>
                         <li>Show Card: <code>/card/show/&lt;id&gt;</code></li>
                         <li>Create Card: <code>/card/create/&lt;id&gt;</code></li>
                         <li>Edit Card: <code>/card/edit/&lt;id&gt;</code></li>
-                        <li>Delete Card: <code>/card/delete/<id&gt;</code></li>
+                        <li>Delete Card: <code>/card/delete/&lt;id&gt;</code></li>
                     </ul>
                 </div>
             </div>
         </div>
         <!-- Token paths -->
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <h2 class="accordion-header" id="headingToken">
+                <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseToken" aria-expanded="false" aria-controls="collapseToken">
                     Token Paths
                 </button>
             </h2>
-            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+            <div id="collapseToken" class="accordion-collapse collapse" aria-labelledby="headingToken" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <ul>
                         <li>Token Obtain Pair: <code>/token/</code></li>
