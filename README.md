@@ -1,5 +1,6 @@
 <div class="container mt-5 mb-5">
     <h1 class="mb-4">API Documentation - Trello</h1>
+    <h3>Base url : trello.thomas.carrot.com/api</h3>
     <div class="accordion" id="accordionExample">
         <!-- User paths -->
         <div class="accordion-item">
