@@ -1,12 +1,3 @@
-Projet Symfony : Trello Django
-
-url : trello.thomascarrot.com
-
-Description du Projet :
-blablabla
-
-
-<h1><strong>Documentation</strong></h1>
 <div class="container mt-5 mb-5">
     <h1 class="mb-4">API Documentation - Trello</h1>
     <div class="accordion" id="accordionExample">
@@ -29,13 +20,16 @@ blablabla
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Workspace Paths
+                    Workspaces Paths
                 </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <ul>
                         <li>Index: <code>/index</code></li>
+                        <li>Create Workspace: <code>/workspace/create</code></li>
+                        <li>Edit Workspace: <code>/workspace/edit/&lt;id&gt;</code></li>
+                        <li>Delete Workspace: <code>/workspace/delete/&lt;id&gt;</code></li>
                     </ul>
                 </div>
             </div>
@@ -51,6 +45,9 @@ blablabla
                 <div class="accordion-body">
                     <ul>
                         <li>Show Board: <code>/board/show/&lt;id&gt;</code></li>
+                        <li>Create Board: <code>/board/create/&lt;id&gt;</code></li>
+                        <li>Edit Board: <code>/board/edit/&lt;id&gt;</code></li>
+                        <li>Delete Board: <code>/board/delete/&lt;id&gt;</code></li>
                     </ul>
                 </div>
             </div>
@@ -66,6 +63,9 @@ blablabla
                 <div class="accordion-body">
                     <ul>
                         <li>Show List: <code>/list/show/&lt;id&gt;</code></li>
+                        <li>Create List: <code>/list/create/&lt;id&gt;</code></li>
+                        <li>Edit List: <code>/list/edit/&lt;id&gt;</code></li>
+                        <li>Delete List: <code>/list/delete/&lt;id&gt;</code></li>
                     </ul>
                 </div>
             </div>
@@ -81,6 +81,9 @@ blablabla
                 <div class="accordion-body">
                     <ul>
                         <li>Show Card: <code>/card/show/&lt;id&gt;</code></li>
+                        <li>Create Card: <code>/card/create/&lt;id&gt;</code></li>
+                        <li>Edit Card: <code>/card/edit/&lt;id&gt;</code></li>
+                        <li>Delete Card: <code>/card/delete/<id&gt;</code></li>
                     </ul>
                 </div>
             </div>
@@ -95,7 +98,7 @@ blablabla
             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <ul>
-                        <li>Token: <code>/token/</code></li>
+                        <li>Token Obtain Pair: <code>/token/</code></li>
                         <li>Token Refresh: <code>/token/refresh/</code></li>
                     </ul>
                 </div>
